@@ -12,16 +12,33 @@ html {
 body {
 	font-family: 'Outfit', sans-serif;
 	font-size: 1.8rem;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: c.$very-dark-blue-main-BG;
 }
 .card {
-	border: 2px solid black;
+	width: 375px;
+	padding: 2.5rem;
+	background-color: c.$very-dark-blue-card-BG;
+	border-radius: 20px;
+	box-shadow: 0px 0px 25px 15px rgb(11 22 45);
+	overflow: hidden;
 }
-.shadow {
-	border: 2px solid red;
+.image {
+	width: 100%;
+	border-radius: 20px;
+}
+.title {
+	margin: 1.5rem 0;
+	font-weight: 700;
+	color: c.$white;
 }
 .description {
-	border: 2px solid blue;
+	margin: 1.5rem 0;
+	line-height: 3rem;
+	color: c.$soft-blue;
 }
 .icons {
 	border: 2px solid green;
