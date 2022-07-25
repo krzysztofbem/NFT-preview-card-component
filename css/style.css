@@ -10,5 +10,31 @@ html {
 }
 
 body {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.8rem;
   background-color: hsl(217deg, 54%, 11%);
+}
+
+.card {
+  border: 2px solid black;
+}
+
+.shadow {
+  border: 2px solid red;
+}
+
+.description {
+  border: 2px solid blue;
+}
+
+.icons {
+  border: 2px solid green;
+}
+
+.author-data {
+  border: 2px solid yellow;
+}
+
+.attribution {
+  border: 2px solid orange;
 }/*# sourceMappingURL=style.css.map */
