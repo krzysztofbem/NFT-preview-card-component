@@ -47,17 +47,45 @@ body {
 }
 
 .description {
+  font-size: 1.8rem;
   margin: 1.5rem 0;
   line-height: 3rem;
   color: hsl(215deg, 51%, 70%);
 }
 
 .icons {
-  border: 2px solid green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.left {
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 700;
+}
+
+.right {
+  color: hsl(215deg, 51%, 70%);
 }
 
 .author-data {
-  border: 2px solid yellow;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .attribution {

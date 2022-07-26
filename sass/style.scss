@@ -36,15 +36,29 @@ body {
 	color: c.$white;
 }
 .description {
+	font-size: 1.8rem;
 	margin: 1.5rem 0;
 	line-height: 3rem;
 	color: c.$soft-blue;
 }
 .icons {
-	border: 2px solid green;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1.5rem;
+}
+.left {
+	color: c.$cyan;
+	font-weight: 700;
+}
+.right {
+	color: c.$soft-blue;
 }
 .author-data {
-	border: 2px solid yellow;
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .attribution {
 	border: 2px solid orange;
