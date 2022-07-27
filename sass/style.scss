@@ -55,10 +55,13 @@ body {
 	color: c.$soft-blue;
 }
 .author-data {
-	height: 3rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: inline-block;
+	border: 3px solid tomato;
+}
+.avatar {
+	height: 100%;
+	border: 2px solid white;
+	border-radius: 50%;
 }
 .attribution {
 	border: 2px solid orange;

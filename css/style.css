@@ -76,16 +76,14 @@ body {
 }
 
 .author-data {
-  height: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: inline-block;
+  border: 3px solid tomato;
+}
+
+.avatar {
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 50%;
 }
 
 .attribution {
