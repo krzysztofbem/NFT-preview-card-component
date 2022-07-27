@@ -55,14 +55,20 @@ body {
 	color: c.$soft-blue;
 }
 .author-data {
-	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin: 1.5rem 0;
 	border: 3px solid tomato;
+	text-align: center;
 }
 .avatar {
+	position: absolute;
+	left: 0;
 	height: 100%;
 	border: 2px solid white;
 	border-radius: 50%;
 }
+
 .attribution {
 	border: 2px solid orange;
 }
