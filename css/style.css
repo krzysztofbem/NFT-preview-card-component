@@ -84,6 +84,11 @@ body {
           align-items: center;
   width: 100%;
   margin: 1.5rem 0;
+  font-size: 1.8rem;
+  color: hsl(215deg, 51%, 70%);
+}
+
+hr {
   color: hsl(215deg, 51%, 70%);
 }
 
