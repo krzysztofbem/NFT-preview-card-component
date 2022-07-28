@@ -35,14 +35,6 @@ body {
   overflow: hidden;
 }
 
-.card:hover {
-  cursor: pointer;
-}
-
-.card:hover ~ image {
-  background-image: url(../img/icon-view.svg);
-}
-
 .image {
   width: 100%;
   border-radius: 20px;
@@ -112,8 +104,4 @@ hr {
 
 .author-data span {
   color: hsl(0deg, 0%, 100%);
-}
-
-.attribution {
-  border: 2px solid orange;
 }/*# sourceMappingURL=style.css.map */

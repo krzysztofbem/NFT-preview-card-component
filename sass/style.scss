@@ -26,12 +26,12 @@ body {
 	box-shadow: 0px 0px 25px 15px rgb(11 22 45);
 	overflow: hidden;
 }
-.card:hover {
-	cursor: pointer;
-}
-.card:hover ~ image {
-	background-image: url(../img/icon-view.svg);
-}
+// .card:hover {
+// 	cursor: pointer;
+// }
+// .card:hover ~ image {
+// 	background-image: url(../img/icon-view.svg);
+// }
 .image {
 	width: 100%;
 	border-radius: 20px;
@@ -83,8 +83,4 @@ hr {
 }
 .author-data span {
 	color: c.$white;
-}
-
-.attribution {
-	border: 2px solid orange;
 }
