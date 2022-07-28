@@ -46,6 +46,7 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 1.5rem;
+	font-size: 1.8rem;
 }
 .left {
 	color: c.$cyan;
@@ -54,6 +55,7 @@ body {
 .right {
 	color: c.$soft-blue;
 }
+
 .author-data {
 	display: flex;
 	align-items: center;
@@ -63,10 +65,12 @@ body {
 	color: c.$soft-blue;
 }
 hr {
-	color: c.$soft-blue;
+	height: 1px;
+	border: none;
+	background-color: c.$soft-blue;
 }
 .avatar {
-	height: 50px;
+	height: 40px;
 	margin-right: 2rem;
 	border: 2px solid c.$white;
 	border-radius: 50%;
