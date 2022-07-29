@@ -10,24 +10,29 @@ html {
 }
 
 body {
-  font-family: "Outfit", sans-serif;
-  font-size: 1.8rem;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.8rem;
   background-color: hsl(217deg, 54%, 11%);
 }
 
 .card {
   width: 375px;
   padding: 2.5rem;
+  margin-bottom: 2rem;
   background-color: hsl(216deg, 50%, 16%);
   border-radius: 20px;
   -webkit-box-shadow: 0px 0px 25px 15px rgb(11, 22, 45);
@@ -35,16 +40,38 @@ body {
   overflow: hidden;
 }
 
+.hero-img {
+  position: relative;
+  width: 100%;
+  border: 3px solid tomato;
+}
+
 .image {
   width: 100%;
-  border-radius: 20px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+}
+
+.image-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.image-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 1;
+  background-color: hsl(178deg, 100%, 50%);
 }
 
 .image:hover {
   cursor: pointer;
-  background-color: aqua;
+  -webkit-box-shadow: inset 8px 8px 100px 100px hsl(178deg, 100%, 50%);
+          box-shadow: inset 8px 8px 100px 100px hsl(178deg, 100%, 50%);
+  z-index: 2000;
 }
 
 .title {
