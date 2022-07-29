@@ -38,12 +38,31 @@ body {
 .image {
   width: 100%;
   border-radius: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.image:hover {
+  cursor: pointer;
+  background-color: aqua;
 }
 
 .title {
   margin: 1.5rem 0;
   font-weight: 700;
   color: hsl(0deg, 0%, 100%);
+}
+
+.title,
+.author-name {
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.title:hover,
+.author-name:hover {
+  cursor: pointer;
+  color: hsl(178deg, 100%, 50%);
 }
 
 .description {
